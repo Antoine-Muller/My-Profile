@@ -1,0 +1,125 @@
+body {
+	background-color: white;
+	color: rgb(100, 100, 100);
+	font-family: lora;
+	font-size: 16px;
+}
+
+h1,h2 {
+	font-family: Roboto;
+	color: #6290C3;
+	font-weight: 700;
+}
+
+
+h1 {
+	font-size: 36px;
+	color: #495371;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: #FE938C;
+	font-weight: bolder;
+	font-family: Roboto;
+}
+
+
+a:hover {
+	color: skyblue;
+	font-weight: bolder;
+
+}
+
+/* custom design */
+.container {
+	width: 800px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: #FFFFFC;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue{
+background-color: #FE938C;
+color: white;
+border-radius: 4px;
+padding: 8px 20px
+}
+
+.btn-blue: hover {
+background-color: black;
+color: white;
+}
+
+.btn-red{
+background-color: #FE938C;
+color: white;
+border-radius: 4px;
+padding: 8px 20px
+}
+
+.btn-red: hover {
+background-color: black;
+color: white;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+/* design adjustment*/
+
+#introduction p {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
